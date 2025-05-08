@@ -2,9 +2,9 @@
 import {
     QueryListOfPosts,
     QueryPostById,
-    QueryCreatePost,
+    // QueryCreatePost,
     QueryUpdatePost,
-    QueryDeletePost
+    // QueryDeletePost
 } from '../service/post.js';
 
 export const getAllPosts = async (req, res) => {
@@ -18,8 +18,8 @@ export const getPostById = async (req, res) => {
 }
 
 export const createPost = async (req, res) => {
-    const post = await QueryCreatePost(req.body);
-    res.send(post);
+    // const post = await QueryCreatePost(req.body);
+    // res.send(post);
 }
 
 export const updatePost = async (req, res) => {

@@ -1,10 +1,10 @@
+import { con } from "../../database/DB";
+
 export const QueryListOfComments = (condition) => { 
-    if(condition){
-        return Comment.findAll(condition).exec();
-    }else{
-        return Comment.findAll().exec();
-    }
-};
+    con.query("SELECT * FROM comments",(err,result,fields)=>{
+        if(err) throw err;
+        console.log(result);
+    })};
 
 export const QueryCommentById = (id) => {
     return Comment.findById(id).exec();

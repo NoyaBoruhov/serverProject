@@ -1,5 +1,5 @@
-import {express} from 'express';
-const Router=express.Router();
+import { express } from 'express';
+const Router = express.Router();
 import {
     getAllPosts,
     getPostById,
@@ -15,4 +15,4 @@ Router.put('/posts/:id', updatePost);
 Router.delete('/posts/:id', deletePost);
 
 
-export{Router as userRouter};
+export { Router as postRouter };

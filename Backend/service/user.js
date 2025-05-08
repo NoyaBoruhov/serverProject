@@ -1,32 +1,53 @@
-export const QueryListOfUsers = (condition) => { 
-    if(condition){
-        return User.findAll(condition).exec();
-    }else{
-        return User.findAll().exec();
+import { con } from "../../database/DB.js";
+
+export const QueryListOfUsers = async (condition) => {
+    if (condition) {
+        con.query("SELECT * FROM users WHERE id = ?", [condition], (err, result)=> {
+            if (err) throw err;
+            console.log(result);
+
+           return result;
+        });
+
+    } else {
+          con.query("SELECT * FROM users", (err, result) =>{
+            if (err) throw err;
+            console.log(result);
+           return result;
+        });
+       
     }
 };
 
 export const QueryUserById = (id) => {
-    return User.findById(id).exec();
+    con.query("SELECT * FROM users WHERE id = ?", [id], (err, result)=> {
+        if (err) throw err;
+        console.log(result);
+       return result;
+    });
 }
 
 export const QueryCreateUser = (user) => {
-    return user.create(user);
-}
+    con.query("Insert INTO users SET ?", [user], (err, result)=> {
+        if (err) throw err;
+        console.log(result);
+       return result;
+    });}
 
-/**
- * Updates a user in the database with the specified ID.
- * 
- * @param {number} id - The ID of the user to update.
- * @param {Object} user - The user data to update.
- * @returns {Promise} - A promise that resolves to the updated user data.
- */
+
 
 export const QueryUpdateUser = (id, user) => {
-    return user.update(user, {where: {id: id}}).exec();
+    con.query("UPDATE users SET ? WHERE id = ?", [user, id], (err, result)=> {
+        if (err) throw err;
+        console.log(result);
+       return result;
+    });
 }
 
 export const QueryDeleteUser = (id) => {
-    return User.destroy({where: {id: id}}).exec();
+    con.query("DELETE FROM users WHERE id = ?", [id], (err, result)=> {
+        if (err) throw err;
+        console.log(result);
+       return result;
+    });
 }
-

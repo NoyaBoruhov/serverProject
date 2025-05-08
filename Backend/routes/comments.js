@@ -1,5 +1,5 @@
-import {express} from 'express';
-const Router=express.Router();
+import { express } from 'express';
+const Router = express.Router();
 import {
     getAllComments,
     getCommentById,
@@ -15,4 +15,7 @@ Router.put('/comments/:id', updateComment);
 Router.delete('/comments/:id', deleteComment);
 
 
-export{Router as userRouter};
+export default Router;
+
+
+

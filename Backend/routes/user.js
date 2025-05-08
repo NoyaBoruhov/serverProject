@@ -1,7 +1,7 @@
 
-import {express} from 'express';
+import express from 'express';
 
-const Router=express.Router();
+const Router = express.Router();
 import {
     getAllUsers,
     getUserById,
@@ -10,11 +10,11 @@ import {
     deleteUser
 } from '../controllers/user.js';
 
-Router.get('/users', getAllUsers);
-Router.get('/users/:id', getUserById);
-Router.post('/users', createUser);
-Router.put('/users/:id', updateUser);
-Router.delete('/users/:id', deleteUser);
+Router.get('/', getAllUsers);
+Router.get('/:id', getUserById);
+Router.post('', createUser);
+Router.put('/:id', updateUser);
+Router.delete('/:id', deleteUser);
 
 
-export{Router as userRouter};
+export { Router as userRouter };
