@@ -1,6 +1,7 @@
 
 import {express} from 'express';
-const Router = express.Router();
+
+const Router=express.Router();
 import {
     getAllUsers,
     getUserById,

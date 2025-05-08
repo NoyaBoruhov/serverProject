@@ -14,19 +14,7 @@ export const QueryCreateUser = (user) => {
     return user.create(user);
 }
 
-/**
- * Updates a user in the database with the specified ID.
- * 
- * @param {number} id - The ID of the user to update.
- * @param {Object} user - The user data to update.
- * @returns {Promise} - A promise that resolves to the updated user data.
- */
-
 export const QueryUpdateUser = (id, user) => {
     return user.update(user, {where: {id: id}}).exec();
-}
-
-export const QueryDeleteUser = (id) => {
-    return User.destroy({where: {id: id}}).exec();
 }
 

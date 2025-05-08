@@ -1,19 +1,18 @@
 import {express} from 'express';
-const Router = express.Router();
+const Router=express.Router();
 import {
-    getAllTodos,
-    getTodoById,
-    createTodo,
-    updateTodo,
-    deleteTodo
+    getAllPosts,
+    getPostById,
+    createPost,
+    updatePost,
+    deletePost
 } from '../controllers/post.js';
 
-Router.get('/posts', getAllTodos);
-Router.get('/posts/:id', getTodoById);
-Router.post('/posts', createTodo);
-Router.put('/posts/:id', updateTodo);
-Router.delete('/posts/:id', deleteTodo);
+Router.get('/posts', getAllPosts);
+Router.get('/posts/:id', getPostById);
+Router.post('/posts', createPost);
+Router.put('/posts/:id', updatePost);
+Router.delete('/posts/:id', deletePost);
 
 
-export{Router as todosRouter};
-
+export{Router as userRouter};

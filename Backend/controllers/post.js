@@ -1,27 +1,33 @@
-import{
-    getAllTodos,
-    getTodoById,
-    createTodo,
-    updateTodo,
-    deleteTodo
-} from '../service/todos.js';
 
-export const getAllTodos = async (req, res) => {
-    const todos = await getAllTodos();
-    res.send(todos);
+import {
+    QueryListOfPosts,
+    QueryPostById,
+    QueryCreatePost,
+    QueryUpdatePost,
+    QueryDeletePost
+} from '../service/post.js';
+
+export const getAllPosts = async (req, res) => {
+    const posts = await QueryListOfPosts();
+    res.send(posts);
 }
 
-export const getTodoById = async (req, res) => {
-    const todo = await getTodoById(req.params.id);
-    res.send(todo);
+export const getPostById = async (req, res) => {
+    const post = await QueryPostById(req.params.id);
+    res.send(post);
 }
 
-export const createTodo = async (req, res) => {
-    const todo = await createTodo(req.body);
-    res.send(todo);
+export const createPost = async (req, res) => {
+    const post = await QueryCreatePost(req.body);
+    res.send(post);
 }
 
-export const updateTodo = async (req, res) => {
-    const todo = await updateTodo(req.params.id, req.body);
-    res.send(todo);
+export const updatePost = async (req, res) => {
+    const post = await QueryUpdatePost(req.params.id, req.body);
+    res.send(post);
+}
+
+export const deletePost = async (req, res) => {
+    const post = await QueryDeletePost(req.params.id);
+    res.send(post);
 }
