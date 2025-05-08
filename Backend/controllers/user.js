@@ -4,7 +4,7 @@ import {
     QueryCreateUser,
     QueryUpdateUser,
     QueryDeleteUser
-} from '../service/users.js';
+} from '../service/user.js';
 
 export const getAllUsers = async (req, res) => {
     const users = await QueryListOfUsers();
