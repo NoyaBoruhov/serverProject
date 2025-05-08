@@ -17,3 +17,8 @@ export const QueryCreateUser = (user) => {
 export const QueryUpdateUser = (id, user) => {
     return user.update(user, {where: {id: id}}).exec();
 }
+
+export const QueryDeleteUser = (id) => {
+    return User.destroy({where: {id: id}}).exec();
+}
+

@@ -30,3 +30,4 @@ export const deleteUser = async (req, res) => {
     const user = await QueryDeleteUser(req.params.id);
     res.send(user);
 }
+
