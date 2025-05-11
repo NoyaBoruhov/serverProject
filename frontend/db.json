@@ -1,0 +1,301 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": "dd67",
+      "username": "רבקה",
+      "website": "ריקי",
+      "name": "Zipi Salomon",
+      "phone": "0504133382",
+      "email": "zipi.3382@gmail.com",
+      "adress": {
+        "city": "Bnei Brak",
+        "street": "Aharonson 9",
+        "suite": "apartment 6",
+        "zipcode": "5144813"
+      },
+      "company": {
+        "name": "Zipi Salomon",
+        "catchPhrase": "hi hello"
+      }
+    },
+    {
+      "id": "9e42",
+      "username": "מני",
+      "website": "מני",
+      "name": "Zipi Salomon",
+      "phone": "0504133382",
+      "email": "da.salomon2@gmail.com",
+      "adress": {
+        "city": "Bnei Brak",
+        "street": "Aharonson 9",
+        "suite": "apartment 6",
+        "zipcode": "5144813"
+      },
+      "company": {
+        "name": "Zipi Salomon",
+        "catchPhrase": "hi hello"
+      }
+    },
+    {
+      "id": "a54d",
+      "username": "nbh",
+      "website": "nbh",
+      "name": "Zipi Salomon",
+      "phone": "0504133382",
+      "email": "zipi.3382@gmail.com",
+      "adress": {
+        "city": "Bnei Brak",
+        "street": "Aharonson 9",
+        "suite": "apartment 6",
+        "zipcode": "5144813"
+      },
+      "company": {
+        "name": "Zipi Salomon",
+        "catchPhrase": "hi hello"
+      }
+    },
+    {
+      "id": "cde6",
+      "username": "w",
+      "website": "w",
+      "name": "Zipi Salomon",
+      "phone": "0504133382",
+      "adress": {
+        "catchPhrase": "hi hello"
+      },
+      "email": "da.salomon2@gmail.com"
+    },
+    {
+      "id": "8c7b",
+      "username": "ציפי",
+      "website": "כהן",
+      "name": "ציפי כהן",
+      "email": "zipic@gmail.com",
+      "phone": "0556654455",
+      "adress": {
+        "city": "ירושלים",
+        "street": "שבטי ישראל",
+        "suite": "28",
+        "zipcode": "5144813"
+      },
+      "company": {
+        "name": "אורליאנציק",
+        "catchPhrase": "אור לי אנד ציק צאק"
+      }
+    },
+    {
+      "id": "d4ad",
+      "username": "לחיעכע",
+      "website": "עעע",
+      "name": "Zipi Salomon",
+      "phone": "0504133382",
+      "adress": {
+        "city": "Bnei Brak",
+        "street": "Aharonson 9",
+        "suite": "apartment 6",
+        "zipcode": "5144813"
+      },
+      "email": "zipih.3h382@gmail.com",
+      "company": {
+        "name": "Zipi Salomon",
+        "catchPhrase": "hi hello"
+      }
+    },
+    {
+      "id": "0bfb",
+      "username": "רחלי",
+      "website": "12345",
+      "name": "רחלי כהן",
+      "email": "rac@gmail.com",
+      "phone": "0554455858",
+      "adress": {
+        "city": "ירושלים",
+        "street": "שמואל הנביא",
+        "suite": "72",
+        "zipcode": "778554"
+      },
+      "company": {
+        "name": "כלל",
+        "catchPhrase": "כלל ישראל חברים"
+      }
+    },
+    {
+      "id": "2fef",
+      "username": "מנשה",
+      "website": "123123",
+      "name": "מנחם כהן",
+      "phone": "0556778941",
+      "adress": {
+        "city": "Bnei Brak",
+        "street": "Aharonson 8",
+        "suite": "apartment 5",
+        "zipcode": "5144813"
+      },
+      "email": "mmm@gmail.com",
+      "company": {
+        "name": "מגדל",
+        "catchPhrase": "מגדלים פורחים"
+      }
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "userId": "2fef",
+      "title": "לישון מוקדם",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "userId": "2fef",
+      "title": "כעיחלךף",
+      "completed": false
+    }
+  ],
+  "posts": [
+    {
+      "userId": "a54d",
+      "title": "אני חושב שהחיים יפים",
+      "body": "השם גדול וענק במידה שאין לתארר",
+      "id": "3"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "name": "ברוררררר",
+      "body": "זה חד משמעי",
+      "email": "zipi.3382@gmail.com",
+      "postId": "a54d"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "title": "נופים",
+      "userId": "9e42"
+    },
+    {
+      "id": "2",
+      "title": "תינוקות",
+      "userId": "9e42"
+    },
+    {
+      "id": "3",
+      "title": "כלבים",
+      "userId": "9e42"
+    },
+    {
+      "id": "4",
+      "title": "אלבום",
+      "userId": "9e42"
+    },
+    {
+      "id": "5",
+      "title": "album",
+      "userId": "a54d"
+    }
+  ],
+  "photos": [
+    {
+      "id": "2",
+      "title": "tailand",
+      "albumId": "1",
+      "url": "https://child-development.org.il/wp-content/uploads/2021/01/%D7%94%D7%95%D7%A9%D7%91%D7%AA-%D7%AA%D7%99%D7%A0%D7%95%D7%A7%D7%95%D7%AA-%D7%A2%D7%A0%D7%AA-%D7%9C%D7%94%D7%91-1.jpg",
+      "thumbnailUrl": "https://child-development.org.il/wp-content/uploads/2021/01/%D7%94%D7%95%D7%A9%D7%91%D7%AA-%D7%AA%D7%99%D7%A0%D7%95%D7%A7%D7%95%D7%AA-%D7%A2%D7%A0%D7%AA-%D7%9C%D7%94%D7%91-1.jpg"
+    },
+    {
+      "id": "1",
+      "title": "baby",
+      "albumId": "2",
+      "url": "https://www.photo-art.co.il/wp-content/uploads/2015/07/BY1A5781.jpg",
+      "thumbnailUrl": "https://www.photo-art.co.il/wp-content/uploads/2015/07/BY1A5781.jpg"
+    },
+    {
+      "id": "1",
+      "title": "כלב 1",
+      "albumId": "3",
+      "url": "https://www.gag-lachayot.co.il/wp-content/uploads/2022/06/%D7%A4%D7%95%D7%A1%D7%98%D7%99%D7%9D-60.jpg",
+      "thumbnailUrl": "https://www.gag-lachayot.co.il/wp-content/uploads/2022/06/%D7%A4%D7%95%D7%A1%D7%98%D7%99%D7%9D-60.jpg"
+    },
+    {
+      "id": "2",
+      "title": "כלב 2",
+      "albumId": "3",
+      "url": "https://pet-ins.net/wp-content/uploads/2021/04/pomer.jpg",
+      "thumbnailUrl": "https://pet-ins.net/wp-content/uploads/2021/04/pomer.jpg"
+    },
+    {
+      "id": "3",
+      "title": "כלב 3",
+      "albumId": "3",
+      "url": "https://pickture.co.il/wp-content/uploads/2023/04/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%9B%D7%9C%D7%91-16.jpg",
+      "thumbnailUrl": "https://pickture.co.il/wp-content/uploads/2023/04/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%A9%D7%9C-%D7%9B%D7%9C%D7%91-16.jpg"
+    },
+    {
+      "id": "2",
+      "title": "נוף 1",
+      "albumId": "2",
+      "url": "https://wildtravel.co.il/wp-content/uploads/2014/11/IMG_0086-2-Sjpeg.jpg",
+      "thumbnailUrl": "https://wildtravel.co.il/wp-content/uploads/2014/11/IMG_0086-2-Sjpeg.jpg"
+    },
+    {
+      "id": "3",
+      "title": "תמונה 3",
+      "albumId": "2",
+      "url": "https://www.picshare.co.il/s_pictures/img94089.jpg",
+      "thumbnailUrl": "https://www.picshare.co.il/s_pictures/img94089.jpg"
+    },
+    {
+      "id": "4",
+      "title": "תמונה 4",
+      "albumId": "2",
+      "url": "https://p-italy.co.il/wp-content/uploads/2020/10/Landscapes-Tuscany.jpg",
+      "thumbnailUrl": "https://p-italy.co.il/wp-content/uploads/2020/10/Landscapes-Tuscany.jpg"
+    },
+    {
+      "id": "5",
+      "title": "תמונה 5",
+      "albumId": "2",
+      "url": "https://static.wixstatic.com/media/972dd5_d9ea62c48df14582a773a381f1332d13~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/972dd5_d9ea62c48df14582a773a381f1332d13~mv2.jpg",
+      "thumbnailUrl": "https://static.wixstatic.com/media/972dd5_d9ea62c48df14582a773a381f1332d13~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/972dd5_d9ea62c48df14582a773a381f1332d13~mv2.jpg"
+    },
+    {
+      "id": "6",
+      "title": "תמונה 6",
+      "albumId": "2",
+      "url": "https://mpost.io/wp-content/uploads/image-56-207-1024x585.jpg",
+      "thumbnailUrl": "https://mpost.io/wp-content/uploads/image-56-207-1024x585.jpg"
+    },
+    {
+      "id": "1",
+      "title": "https://mpost.io/wp-content/uploads/image-56-207-1024x585.jpg",
+      "albumId": "4",
+      "url": "https://mpost.io/wp-content/uploads/image-56-207-1024x585.jpg",
+      "thumbnailUrl": "https://mpost.io/wp-content/uploads/image-56-207-1024x585.jpg"
+    }
+  ]
+}
