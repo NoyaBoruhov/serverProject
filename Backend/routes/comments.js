@@ -1,4 +1,4 @@
-import { express } from 'express';
+import  express  from 'express';
 const Router = express.Router();
 import {
     getAllComments,
@@ -8,14 +8,14 @@ import {
     deleteComment
 } from '../controllers/comments.js';
 
-Router.get('/comments', getAllComments);
-Router.get('/comments/:id', getCommentById);
-Router.post('/comments', createComment);
-Router.put('/comments/:id', updateComment);
-Router.delete('/comments/:id', deleteComment);
+Router.get('/', getAllComments);
+Router.get('/:id', getCommentById);
+Router.post('', createComment);
+Router.put('/:id', updateComment);
+Router.delete('/:id', deleteComment);
 
 
-export default Router;
+export { Router as commentRouter };
 
 
 
