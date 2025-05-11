@@ -13,7 +13,9 @@ export const getAllComments = async (req, res) => {
 
 export const getCommentById = async (req, res) => {
     const comment = await QueryCommentById(req.params.id);
-    res.send(comment);
+    // res.send(comment);
+    res.status(200).json(comment);
+
 }
 
 export const createComment = async (req, res) => {

@@ -1,9 +1,10 @@
 import mysql from 'mysql2'
+// const mysql = require('mysql2');
 
 export var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Nb171204*",
+  password: "Mimigins2005**",
   database: "myProject"
 });
 
