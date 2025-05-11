@@ -1,7 +1,7 @@
 import { con } from "../../database/DB.js";
 
 export const QueryListOfUsers = async (condition) => {
-<<<<<<< HEAD
+
     if (condition) {
        await con.query("SELECT * FROM users WHERE id = ?", [condition], (err, result)=> {
             if (err) throw err;
@@ -10,7 +10,7 @@ export const QueryListOfUsers = async (condition) => {
            
         });
         
-=======
+
     // if (condition) {
     //     con.query("SELECT * FROM users WHERE id = ?", [condition], (err, result)=> {
     //         if (err) throw err;
@@ -18,7 +18,7 @@ export const QueryListOfUsers = async (condition) => {
 
     //        return result;
     //     });
->>>>>>> 4194762a7a0ff0064e3034586124764f772930ac
+
 
     // } else {
           con.query("SELECT * FROM users", (err, result) =>{
@@ -38,7 +38,7 @@ export const QueryUserById = async (id) => {
     });
 }
 
-<<<<<<< HEAD
+
 export const QueryCreateUser = async (user) => {
     con.query("Insert INTO users SET ?", [user], (err, result)=> {
         if (err) throw err;
@@ -58,7 +58,7 @@ export const QueryUpdateUser = async (id, user) => {
 }
 
 export const QueryDeleteUser = async(id) => {
-=======
+
 
 // export const QueryCreateUser = (user) => {
 //     con.query("Insert INTO users SET ?", [user], (err, result)=> {
@@ -109,7 +109,7 @@ export const QueryUpdateUser = async (id, user) => {
 
 
 export const QueryDeleteUser = (id) => {
->>>>>>> 4194762a7a0ff0064e3034586124764f772930ac
+
     con.query("DELETE FROM users WHERE id = ?", [id], (err, result)=> {
         if (err) throw err;
         console.log(result);
